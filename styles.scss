@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.cardSection {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #F0F0F0;
+    border-radius: 1rem;
+}
+
+.topSection {
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionTitle {
+    margin: 1rem;
+}
+
+.buttonFunctionality {
+    flex-direction: row;
+    margin-left: auto;
+}
+
+// lower card section
+
+.lowerSection {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardContainer {
+    margin: .5rem;
+    padding: .5rem;
+    //flex-basis: 25%;
+    flex-grow: 1;
+}
+.cardVisual {
+    padding: 2rem 2rem 2rem .5rem;
+    background-color: lightblue;
+    border-radius: .5rem ;
+}
+
