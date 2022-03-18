@@ -51,6 +51,20 @@
           flex-grow: 1;
 }
 
+@media (max-width: 720px) {
+  .lowerSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .cardVisual {
   padding: 2rem 2rem 2rem .5rem;
   background-color: lightblue;
