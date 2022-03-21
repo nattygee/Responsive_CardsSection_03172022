@@ -14,13 +14,48 @@ a:link {
 }
 
 .shuffleBtn {
-  color: #5d06ff;
+  color: #405166;
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 1px #acc9ee;
+  border-radius: .5rem;
+  padding: 0 1rem 0 1rem;
 }
 
 .shuffleBtn :visited {
-  color: #5d06ff;
+  color: #405166;
   text-decoration: none;
+}
+
+.shuffleBtn:hover {
+  cursor: pointer;
+  background-color: #cde2fc;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.minimizeBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 1px #acc9ee;
+  border-radius: .5rem;
+  padding: 0 .5rem 0 .5rem;
+}
+
+.minimizeBtn:hover {
+  cursor: pointer;
+  background-color: #cde2fc;
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
 
 .cardSection {
@@ -42,6 +77,12 @@ a:link {
 
 .sectionTitle {
   margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .buttonFunctionality {
@@ -66,8 +107,8 @@ a:link {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 1px;
-  height: 1rem;
-  border-right: solid 1px #405166;
+  height: 2rem;
+  border-right: solid 1px #acc9ee;
 }
 
 .lowerSection {
@@ -160,7 +201,8 @@ a:link {
   padding-left: .5rem;
 }
 
-.cardTitle h3 {
+.cardTitle h5 {
   font-weight: 100;
+  color: #405166;
 }
 /*# sourceMappingURL=styles.css.map */
