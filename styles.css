@@ -9,6 +9,55 @@ h3 {
   color: #405166;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+.shuffleBtn {
+  color: #405166;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 1px #acc9ee;
+  border-radius: .5rem;
+  padding: 0 1rem 0 1rem;
+}
+
+.shuffleBtn :visited {
+  color: #405166;
+  text-decoration: none;
+}
+
+.shuffleBtn:hover {
+  cursor: pointer;
+  background-color: #cde2fc;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.minimizeBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 1px #acc9ee;
+  border-radius: .5rem;
+  padding: 0 .5rem 0 .5rem;
+}
+
+.minimizeBtn:hover {
+  cursor: pointer;
+  background-color: #cde2fc;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
 .cardSection {
   margin: 1rem;
   padding: 1rem;
@@ -28,14 +77,38 @@ h3 {
 
 .sectionTitle {
   margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .buttonFunctionality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
   margin-left: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.divider {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 1px;
+  height: 2rem;
+  border-right: solid 1px #acc9ee;
 }
 
 .lowerSection {
@@ -128,7 +201,8 @@ h3 {
   padding-left: .5rem;
 }
 
-.cardTitle h3 {
+.cardTitle h5 {
   font-weight: 100;
+  color: #405166;
 }
 /*# sourceMappingURL=styles.css.map */
