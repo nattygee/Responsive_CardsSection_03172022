@@ -15,7 +15,7 @@
         <!--placing a section for just the cards-->
         <div class="cardSection">
             <!--section for title and some sort of button functionality - 'shuffle' maybe?-->
-            <div class="topSection">
+            <div class="topSection" id="topSectionID">
                 <div class="sectionTitle">
                     <h3>Explore Templates</h3>
                 </div>
@@ -26,13 +26,14 @@
                     <div class="divider">
                         
                     </div>
-                    <div class="minimizeBtn">
-                        <img src="images/close_btn.svg" alt="">
+                    <div class="minimizeBtn" id="theMinimizer" onclick="hideCards()">
+                        <img src="images/hide_cards.svg" alt="" id="visibilityIMG">
+                        <!-- <p>Hide Cards</p> -->
                     </div>
                 </div>
             </div>
             <!--area for all our cards-->
-            <div class="lowerSection" id="sectionForCards">
+            <div class="lowerSection" id="sectionForCards" style="display: flex;">
                 <!--individual card-->
                 <div class="cardContainer" id="card1">
                     <div class="cardVisual" style="background-image: url(images/blueSQ.svg); background-size: cover;" >
