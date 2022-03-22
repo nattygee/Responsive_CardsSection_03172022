@@ -13,6 +13,13 @@ a:link {
     text-decoration: none;
 }
 
+#sectionForCards {
+    display: flex;
+}
+
+#topSectionID {
+    display: flex;
+}
 
 .shuffleBtn {
     color: #405166;
@@ -49,11 +56,17 @@ a:link {
     transition: 200ms;
 }
 
+/* .minimizeBtn p {
+    color: #405166;
+    margin: 0 0 0 .5rem;
+} */
+
 .cardSection {
     margin: 1rem;
     padding: 1rem;
     background-color: #d9eaff;
     border-radius: 1rem;
+    height: auto;
 }
 
 .topSection {
